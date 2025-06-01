@@ -196,26 +196,6 @@ module "acm" {
 }
 ```
 
----
-
-### 🔹 WAF (Web Application Firewall)
-- Create and manage AWS WAFv2 Web ACLs and rules.
-
-**Key Features:**
-- Managed rule groups
-- Custom rules
-- ALB/CloudFront association
-
-**Example:**
-```hcl
-module "waf" {
-  source = "./WAF"
-  # ...
-}
-```
-
----
-
 ### 🔹 Secret Manager
 - Manage secrets securely with AWS Secrets Manager.
 
@@ -275,7 +255,7 @@ module "efs_csi_driver" {
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Khaled-SRE/terraform-modules.git
+   git clone https://github.com/AbanoubRezkRasmy/terraform-modules.git
    ```
    
 2. Add a module to your root configuration:
